@@ -74,7 +74,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: px 25px 25px 25px
+  padding: 25px 25px 25px 25px
 }
 
 .hosts p {
