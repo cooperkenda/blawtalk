@@ -31,7 +31,7 @@ body {
 /* Intro
 ––––––––––––––––––––––––––––––––––––––––––––––– */
 .vs {
-  width: 500px;
+  width: 450px;
   padding-bottom: 25px;
 }
 
@@ -47,7 +47,7 @@ body {
   font-size: 32px;
   color: #EF462C;
   text-align: center;
-  padding: 0px 10px 10px 10px;
+  padding: 0px 10px 25px 10px;
 }
 
 .intro p {
@@ -74,7 +74,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 25px 25px 25px 25px
+  padding: 10px 10px 10px 10px
 }
 
 .hosts p {
