@@ -7,7 +7,7 @@
 }
 
 body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  font: normal 16px/1.5 'Montserrat', sans-serif;
   background: #F8F7ED;
   color: #F8F7ED;
   overflow-x: hidden;
@@ -43,25 +43,27 @@ body {
 }
 
 .intro h1 {
-  font-family: 'Chewy', Arial, Helvetica, sans-serif;
-  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
   color: #EF462C;
   text-align: center;
   padding: 0px 10px 25px 10px;
 }
 
 .intro p {
-  font-family: 'Chewy', Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
   color: #000000;
   text-align: center;
   padding: 0px 5% 25px 5%;
 }
 
 .intro h2 {
-  font-family: 'Chewy', Arial, Helvetica, sans-serif;
-  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
   color: #4259A7;
+  font-weight: 800;
 }
 
 .intro .container {
@@ -78,8 +80,8 @@ body {
 }
 
 .hosts p {
-  font-family: 'Chewy', Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
   color: #000000;
   text-align: center;
   padding: 0 0 0 5px;
@@ -88,8 +90,9 @@ body {
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .timeline-title {
-  font-family: 'Chewy', cursive;
-  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
   color: #EF462C;
   text-align: center;
   padding: 25px 10px 0px 10px;
@@ -170,6 +173,38 @@ time {
 }
 
 
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background 0.5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #4259A7;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -203,6 +238,7 @@ time {
   padding-bottom: 25px;
 }
 }
+
 
 /* EXTRA/CLIP PATH STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -274,7 +310,7 @@ time {
   bottom: 20px;
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 8px;
   color: black;
   background: rgba(255, 255, 255, 0.39);
   border-radius: 10px;
