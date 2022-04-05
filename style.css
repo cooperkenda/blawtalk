@@ -86,7 +86,40 @@ body {
   text-align: center;
   padding: 0 0 0 5px;
 }
+/* Case Facts & Arguments
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.args {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+}
 
+.sides {
+  background: #4259A7;
+  border-radius: 20px;
+  text-align: center;
+  margin: 25px;
+}
+
+.sides h2 {
+  padding: 20px 0 0 10px;
+  font-size: 24px;
+}
+
+.sides h3 {
+  font-size: 18px;
+}
+
+.sides ul {
+  padding: 4% 10%;
+}
+
+.sides li {
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 16px;
+}
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .timeline-title {
@@ -174,7 +207,7 @@ time {
 
 
 /* EFFECTS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
@@ -203,7 +236,7 @@ time {
   visibility: visible;
   opacity: 1;
 }
-
+*/
 
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
