@@ -103,12 +103,13 @@ body {
 }
 
 .sides h2 {
-  padding: 20px 0 0 10px;
+  padding: 20px 5px 5px 10px;
   font-size: 24px;
 }
 
 .sides h3 {
   font-size: 18px;
+  padding: 0 10px;
 }
 
 .sides ul {
