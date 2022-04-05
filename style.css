@@ -25,7 +25,7 @@ body {
 }
 .logo {
   width: 175px;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 /* Intro
@@ -44,7 +44,7 @@ body {
 
 .intro h1 {
   font-family: 'Chewy', cursive;
-  font-size: 26px;
+  font-size: 32px;
   color: #EF462C;
   text-align: center;
   padding: 0px 10px 10px 10px;
@@ -52,7 +52,7 @@ body {
 
 .intro p {
   font-family: 'Chewy', cursive;
-  font-size: 14px;
+  font-size: 16px;
   color: #000000;
   text-align: center;
   padding: 0px 5% 25px 5%;
@@ -64,10 +64,17 @@ body {
   color: #4259A7;
 }
 
-.hosts {
+.intro .container {
   display: flex;
   justify-content: center;
-  padding: 0 0 15px 0
+  flex-wrap: wrap;
+}
+.hosts {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: px 25px 25px 25px
 }
 
 .hosts p {
