@@ -43,7 +43,7 @@ body {
 }
 
 .intro h1 {
-  font-family: 'Chewy', cursive;
+  font-family: 'Chewy', Arial, Helvetica, sans-serif;
   font-size: 32px;
   color: #EF462C;
   text-align: center;
@@ -51,7 +51,7 @@ body {
 }
 
 .intro p {
-  font-family: 'Chewy', cursive;
+  font-family: 'Chewy', Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #000000;
   text-align: center;
@@ -59,7 +59,7 @@ body {
 }
 
 .intro h2 {
-  font-family: 'Chewy', cursive;
+  font-family: 'Chewy', Arial, Helvetica, sans-serif;
   font-size: 26px;
   color: #4259A7;
 }
@@ -70,7 +70,7 @@ body {
   flex-wrap: wrap;
 }
 .hosts {
-  width: 200px;
+  width: 175px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -78,8 +78,8 @@ body {
 }
 
 .hosts p {
-  font-family: 'Chewy', cursive;
-  font-size: 22px;
+  font-family: 'Chewy', Arial, Helvetica, sans-serif;
+  font-size: 18px;
   color: #000000;
   text-align: center;
   padding: 0 0 0 5px;
@@ -92,12 +92,12 @@ body {
   font-size: 32px;
   color: #EF462C;
   text-align: center;
-  padding: 50px 10px 0px 10px;
+  padding: 25px 10px 0px 10px;
 }
 
 .timeline ul {
   background: #F8F7ED;
-  padding: 25px 0;
+  margin: 0 auto;
 }
 
 .timeline ul li {
@@ -237,52 +237,6 @@ time {
 }
 
 
-/* EXTRA/CLIP PATH STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.timeline-clippy ul li::after {
-  width: 40px;
-  height: 40px;
-  border-radius: 0;
-}
-
-.timeline-rhombus ul li::after {
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-.timeline-rhombus ul li div::before {
-  bottom: 12px;
-}
-
-.timeline-star ul li::after {
-  clip-path: polygon(
-    50% 0%,
-    61% 35%,
-    98% 35%,
-    68% 57%,
-    79% 91%,
-    50% 70%,
-    21% 91%,
-    32% 57%,
-    2% 35%,
-    39% 35%
-  );
-}
-
-.timeline-heptagon ul li::after {
-  clip-path: polygon(
-    50% 0%,
-    90% 20%,
-    100% 60%,
-    75% 100%,
-    25% 100%,
-    0% 60%,
-    10% 20%
-  );
-}
-
-.timeline-infinite ul li::after {
-  animation: scaleAnimation 2s infinite;
-}
 
 @keyframes scaleAnimation {
   0% {
